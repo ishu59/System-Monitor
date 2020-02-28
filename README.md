@@ -3,7 +3,9 @@
 ![System Monitor](images/monitor.png)
 
 ## Similar to Htop
-1. Uses priority queue to keep just top 10 process with high cpu usage
+1. Uses filesystem library from  STL(C++ 17)
+2. Computes active processor usage in very 5 millisecond
+2. Uses priority queue to keep just top 10 process with high cpu usage
 ## Running project
 1. Clone the project repository
 
